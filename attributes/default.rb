@@ -52,7 +52,7 @@ end
 default['confluence']['database']['host']     = '127.0.0.1'
 default['confluence']['database']['name']     = 'confluence'
 default['confluence']['database']['password'] = 'changeit'
-default['confluence']['database']['type']     = 'mysql'
+default['confluence']['database']['type']     = 'postgresql'
 default['confluence']['database']['user']     = 'confluence'
 
 default['confluence']['jvm']['minimum_memory']  = '256m'
